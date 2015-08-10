@@ -140,8 +140,8 @@ class Conversions {
 		$ary = array("celsius" => "", "fahr" => "");
 		
 		if($reading != "MM") {
-			$ary['celsius'] = $reading;
-			$ary['fahr']    = ($reading + 32);
+			$ary['celsius'] = floatval($reading);
+			$ary['fahr']    = floatval((($reading * 1.8) + 32));
 		}
 		
 		return $ary;
