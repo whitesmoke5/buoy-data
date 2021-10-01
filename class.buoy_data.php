@@ -27,7 +27,7 @@ class Buoy_Data {
 	 * URL path of NBDC's data files
 	 * @var string
 	 */
-	var $_dataPath = 'http://www.ndbc.noaa.gov/data/';
+	var $_dataPath = 'https://www.ndbc.noaa.gov/data/';
 	
 	/**
 	 * The current data file in use by the class.
